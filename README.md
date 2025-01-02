@@ -24,7 +24,7 @@ Este proyecto utiliza un sistema de ramas para organizar el desarrollo y las dif
 
 * **main:** Esta es la rama principal y estable del proyecto. Contiene el código que se considera listo para producción.
 * **desarrollo:** En esta rama se realizan las nuevas funcionalidades y mejoras. 
-* **feature/nueva-funcionalidad:** Se crean ramas de características para desarrollar funcionalidades específicas de forma aislada. Por ejemplo, `feature/formulario-de-contacto` se utilizaría para implementar un nuevo formulario de contacto.
+* **feature-mejora-estilo:** Se crean ramas de características para desarrollar funcionalidades específicas de forma aislada. Por ejemplo, `feature/formulario-de-contacto` se utilizaría para implementar un nuevo formulario de contacto.
 * **bugfix/corregir-error:** Se crean ramas para corregir errores específicos. Por ejemplo, `bugfix/arreglar-estilo-en-móvil` se utilizaría para solucionar un problema de diseño en dispositivos móviles.
 
 **Convenciones de nombrado:**
@@ -42,7 +42,5 @@ Este proyecto utiliza un sistema de ramas para organizar el desarrollo y las dif
 4. **Revisar y fusionar:** Los cambios se revisan y se fusionan en la rama `desarrollo`.
 5. **Implementar en producción:** Cuando se considera que la rama `desarrollo` está estable, se fusiona con la rama `main` para implementar los cambios en producción.
 
-**Diagrama del flujo de trabajo (opcional):**
-[Incluir un diagrama simple que muestre el flujo de las ramas]
 
 **Nota:** Puedes adaptar esta sección a las necesidades específicas de tu proyecto. Por ejemplo, puedes agregar más ramas para diferentes entornos (pruebas, staging) o utilizar convenciones de nombrado diferentes.
