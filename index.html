@@ -1,11 +1,61 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Mi primer proyecto HTML</title>
+    <title>Mi proyecto HTML: Explorando estilos y Git</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>¡Hola, mundo!</h1>
-    <p>Este es mi primer proyecto HTML con CSS y Git.</p>
+    <h1>Mi proyecto HTML</h1>
+
+    <p>Este proyecto tiene como objetivo familiarizarnos con los fundamentos de desarrollo web. Aprenderemos a crear estructuras básicas utilizando HTML, a diseñar y dar estilo a nuestras páginas con CSS, y a gestionar los cambios en nuestro código de forma eficiente con Git.</p>
+
+    <h2>Tabla de contenidos</h2>
+    <ol>
+        <li><a href="#html">HTML: La estructura de una página web</a></li>
+        <li><a href="#css">CSS: Dando estilo a las páginas web</a></li>
+        <li><a href="#git">Git: Control de versiones</a></li>
+            <li><a href="#que-es-git">¿Qué es Git?</a></li>
+            <li><a href="#configuracion-inicial">Configuración inicial</a></li>
+            <li><a href="#ciclo-de-vida">Ciclo de vida de un cambio</a></li>
+            <li><a href="#creacion-de-ramas">Creación de ramas</a></li>
+            <li><a href="#fusionar-ramas">Fusionar ramas</a></li>
+    </ol>
+
+    <section id="html">
+        <h2>HTML: La estructura de una página web</h2>
+        <p>HTML (HyperText Markup Language) es el lenguaje estándar para crear la estructura de las páginas web. Define los elementos que componen una página, como encabezados, párrafos, imágenes, enlaces, etc. Estos elementos se organizan en una jerarquía que determina la estructura visual de la página.</p>
+    </section>
+
+    <section id="css">
+        <h2>CSS: Dando estilo a las páginas web</h2>
+        <p>CSS (Cascading Style Sheets) es un lenguaje de diseño que se utiliza para describir la presentación de un documento escrito en un lenguaje de marcado (como HTML). Con CSS, podemos controlar el color, la fuente, el tamaño, el espaciado, el diseño y muchas otras características de los elementos HTML. Esto nos permite crear diseños personalizados y atractivos.</p>
+    </section>
+
+    <section id="git">
+        <h2>Git: Control de versiones</h2>
+        <p>Git es un sistema de control de versiones distribuido que te permite rastrear los cambios realizados en tus archivos a lo largo del tiempo. Es una herramienta esencial para cualquier desarrollador, ya que facilita la colaboración en equipo, la gestión de diferentes versiones de un proyecto y la recuperación de cambios anteriores si es necesario.</p>
+    
+        <h3>Ciclo de vida de un cambio en Git</h3>
+        <p>El ciclo de vida de un cambio en Git generalmente sigue estos pasos:</p>
+        <ol>
+            <li><strong>Realizar cambios:</strong> Editas tus archivos directamente.</li>
+            <li><strong>Añadir al índice (staging):</strong> Usas el comando `git add <archivo>` para marcar los cambios que deseas incluir en la siguiente confirmación.</li>
+            <li><strong>Confirmar los cambios:</strong> Usas el comando `git commit -m "Mensaje descriptivo"` para crear una instantánea de los cambios en el repositorio local.</li>
+            <li><strong>Enviar los cambios a un repositorio remoto:</strong> Usas el comando `git push` para enviar tus confirmaciones a un repositorio remoto como GitHub.</li>
+        </ol>
+    
+        <h3>Creación de ramas</h3>
+        <p>Las ramas en Git te permiten trabajar en diferentes versiones de tu proyecto al mismo tiempo. Esto es útil para desarrollar nuevas funcionalidades sin afectar la versión principal. Para crear una nueva rama, usa el comando `git branch <nombre_de_la_rama>`. Para cambiar a una rama existente, usa `git checkout <nombre_de_la_rama>`.</p>
+    
+        <h3>Fusionar ramas</h3>
+        <p>Una vez que hayas terminado de trabajar en una rama, puedes fusionarla con la rama principal (generalmente llamada `main` o `master`). Para fusionar una rama, primero debes cambiar a la rama donde quieres realizar la fusión y luego usar el comando `git merge <nombre_de_la_rama_a_fusionar>`. Si hay conflictos durante la fusión, tendrás que resolverlos manualmente.</p>
+    
+        <h3>Otros comandos útiles</h3>
+        <ul>
+            <li><strong>`git status`</strong>: Muestra el estado actual del repositorio.</li>
+            <li><strong>`git log`</strong>: Muestra el historial de confirmaciones.</li>
+            <li><strong>`git diff`</strong>: Muestra las diferencias entre dos versiones de un archivo.</li>
+        </ul>
+    </section>
 </body>
 </html>
