@@ -1,12 +1,42 @@
+/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
     text-align: center;
+    background-color: #f0f0f0;
 }
 
-h1 {
-    color: blue;
+/* Estilos específicos */
+.titulo {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
 }
 
-p {
-    color: green;
+.bienvenida {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.5;
+}
+
+.seccion {
+    font-size: 24px;
+    color: #007bff;
+    margin-top: 30px;
+}
+
+.lista {
+    list-style: none;
+    padding: 0;
+}
+
+.lista li {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.pie {
+    font-style: italic;
+    color: #888;
+    margin-top: 20px;
 }
