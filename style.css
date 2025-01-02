@@ -1,57 +1,20 @@
-/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #f0f0f0;
+    /* Eliminamos text-align: center; para alinear a la izquierda */
+    max-width: 800px; /* Limitamos el ancho máximo del contenido para una mejor visualización */
+    margin: 0 auto; /* Centramos el contenido horizontalmente dentro del contenedor */
 }
 
-/* Estilos específicos */
-.titulo {
-    font-size: 36px;
-    color: #333;
-    margin-bottom: 20px;
+h1, h2 {
+    text-align: left;
 }
 
-.bienvenida {
-    font-size: 18px;
-    color: #666;
-    line-height: 1.5;
-}
-
-.seccion {
-    font-size: 24px;
-    color: #007bff;
-    margin-top: 30px;
-}
-
-.lista {
-    list-style: none;
-    padding: 0;
-}
-
-.lista li {
-    font-size: 16px;
-    color: #444;
-    margin-bottom: 10px;
-}
-
-.pie {
-    font-style: italic;
-    color: #888;
-    margin-top: 20px;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav li {
-    display: inline-block;
-    margin: 0 10px;
-}
-
-nav a {
+/* Estilos adicionales para enlaces, listas, etc. */
+a {
+    color: blue;
     text-decoration: none;
-    color: #333;
+}
+
+ol {
+    padding-left: 20px;
 }
